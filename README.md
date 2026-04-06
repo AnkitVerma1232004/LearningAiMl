@@ -1,114 +1,48 @@
-# 🚀 Learning AI/ML - Python & Foundations
+# 🚀 Learning AI/ML - Python Journey
 
-Welcome to my journey into Artificial Intelligence and Machine Learning.
-This repository documents my progress from Python fundamentals to advanced AI/ML concepts.
-
----
-
-## 👤 About Me
-- Name: Ankit Verma
-- Background: B.Tech Student
-- Goal: AI/ML Engineer
-- Focus: Strong fundamentals + practical implementation
+This repository contains my personal learning progress in Python and AI/ML.  
+I use it to practice, experiment, and understand concepts deeply.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Structure
 
-- **Assignments/** → Step-by-step problem solving & coding practice  
-- **codes/** → Jupyter notebooks for concepts  
-- **makelifeeasycode/** → Automation scripts  
-- **notes/** → PDFs & theory notes  
-
----
-
-## 📈 Progress Tracker
-
-| Stage | Topic | Status |
-|------|------|--------|
-| ✅ | Python Basics | Completed |
-| ✅ | Data Structures | Completed |
-| ✅ | OOP Concepts | Completed |
-| 🔄 | NumPy | In Progress |
-| ⏳ | Pandas | Upcoming |
-| ⏳ | Machine Learning | Upcoming |
+- Assignments → Practice problems (some code is commented as I experiment)
+- codes → Jupyter notebooks for concepts (Python basics & OOP)
+- makelifeeasycode → Small automation scripts
+- notes → Reference PDFs
 
 ---
 
-## 🧠 Learning Milestones
+## 🧠 What I’ve Covered
 
-### 🟢 Phase 1: Python Foundations
-- Input/Output, loops, conditionals
-- Assignments 1 & 2 → Core logic building
-
-### 🟢 Phase 2: Data Structures
-- Lists, Tuples, Dictionaries
-- Assignment 3 → Data handling problems
-
-### 🟢 Phase 3: Object-Oriented Programming
-- Encapsulation → BankAccount, Student
-- Inheritance → Bear hierarchy
-- Abstraction → Employee system
-
-### 🔵 Phase 4: Numerical Computing (Current)
-- Learning NumPy (arrays, operations, broadcasting)
-
-### ⚪ Phase 5: Data Analysis (Next)
-- Pandas → Data cleaning & processing
-
-### ⚪ Phase 6: Machine Learning
-- Regression, Classification models
+- Python basics (loops, conditions, input/output)
+- Data structures (lists, tuples, dictionaries)
+- Object-Oriented Programming (encapsulation, inheritance, abstraction, polymorphism)
 
 ---
 
-## 💡 Mini Projects
+## ⚙️ How I Use This Repo
 
-- Chat System → Multi-user simulation using classes  
-- Guessing Game → Logic-based implementation  
-
----
-
-## 🛠️ Tech Stack
-
-- Language: Python  
-- Tools: Jupyter Notebook, Git, GitHub  
+- I often comment/uncomment code while testing ideas  
+- Some files may contain multiple approaches to the same problem  
+- This repo is mainly for learning, not final implementations  
 
 ---
 
 ## 🎯 Current Focus
-Working on:
-- NumPy fundamentals  
-- Writing cleaner and efficient Python code  
+Learning NumPy and improving coding fundamentals.
 
 ---
 
-## 📌 Future Goals
-- Build ML models from scratch  
-- Work on real datasets  
-- Learn Deep Learning  
+## 📌 Next
+NumPy → Pandas
 
 ---
 
-## 🔁 Update Log
-
-| Date | Update |
-|------|--------|
-| 2026-04 | Added OOP assignment |
-| 2026-04 | Created README structure |
-| (Keep updating this) |
+## ⭐ Note
+This repository reflects my learning process, not polished production code.
 
 ---
 
-## 📎 How to Use This Repo
-1. Navigate through assignments step-by-step  
-2. Refer notebooks for concept clarity  
-3. Use scripts for automation understanding  
-
----
-
-## ⭐ Key Philosophy
-> "Focus on strong fundamentals before jumping into complex AI models."
-
----
-
-*Maintained by Ankit Verma*
+*Last Updated: 6 April 2026*
