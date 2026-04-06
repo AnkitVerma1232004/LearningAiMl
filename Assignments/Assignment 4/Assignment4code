@@ -1,0 +1,329 @@
+# Create a class named BankAccount and create an instance variable such as Account number , Owner name , Balance And methods like deposit, withdrawal, and check balance 
+# class BankAccount :
+#     bank_name="SBI"
+#     @classmethod
+#     def display_bank_name(cls):
+#         return cls.bank_name 
+#     @classmethod
+#     def change_bank_name(cls,bank_name):
+#         if bank_name=="SBI" or bank_name=="HDFC":
+#             cls.bank_name=bank_name
+#         else:
+#             print("Invalid Bank name")
+#     def __init__(self,acc_no,owner_name,balance):
+#         self.no=acc_no
+#         self.own=owner_name
+#         self.bal=balance
+#     def depo(self,amt):
+#         self.bal+=amt
+#         return
+#     def withdraw(self,amt):
+#         if amt<=self.bal:
+#             self.bal=self.bal-amt
+#             print(f"You have withdrawed {amt} amount from your {self.bank_name} bank")
+#         else:
+#             print("Insufficient balance.")
+
+#     def check_bal(self):
+#         return self.bal
+# obj1=BankAccount(123,"Ankit Verma",5706)
+# print(obj1.check_bal())
+# obj1.depo(1500)
+# obj1.withdraw(9999)
+# obj1.withdraw(5750)
+# print(obj1.display_bank_name())
+# obj1.change_bank_name("ankt bank")
+# print(obj1.display_bank_name())
+# obj1.change_bank_name("HDFC")
+# print(obj1.display_bank_name())
+
+
+
+
+# Create a class Book with the following attributes:
+# - title
+# - author
+# - list of reviews
+# and the following methods:
+# - add a new review
+# - count reviews
+# - display all reviews
+# class Book:
+#     def __init__(self,title,author):
+#         self.t=title
+#         self.a=author
+#         self.revs=[]
+#     def new_revs(self,rev):
+#         self.revs.append(rev)
+#     def count(self):
+#         return len(self.revs)
+#     def print_reviews(self):
+#         for i in self.revs:
+#             print(i)
+
+# new_book = Book("the god of death","ankit verma")
+# new_book.new_revs("This is a good book. I like it.")
+# new_book.new_revs("I love God of Death better than God of Death Reaper. ")
+# new_book.print_reviews()
+# print(new_book.count())
+
+
+
+
+# Create a class Student with private attributes like name, roll number, and marks. 
+# Provide getter and setter methods with validation. That means it cannot be negative marks or something like that.
+# Roll number has to be between 1 and 100, and name cannot be empty. 
+# class Student:
+#     def __init__(self, n, r, m):
+#         self.__name = n
+#         self.__roll_no = r
+#         self.__marks = m
+
+#     def get_name(self):
+#         return self.__name
+
+#     def set_name(self, n):
+#         if n != "":
+#             self.__name = n
+#         else:
+#             print("Invalid name")
+
+#     def get_roll(self):
+#         return self.__roll_no
+
+#     def set_roll(self, r):
+#         if 1 <= r <= 100:
+#             self.__roll_no = r
+#         else:
+#             print("Invalid roll number")
+
+#     def get_marks(self):
+#         return self.__marks
+
+#     def set_marks(self, m):
+#         if m >= 0:
+#             self.__marks = m
+#         else:
+#             print("Invalid marks")
+
+
+# s = Student("Ankit", 2, 85)
+
+# print(s.get_name())
+# print(s.get_roll())
+# print(s.get_marks())
+
+# s.set_marks(-5)
+# s.set_roll(150)
+# s.set_name("")
+
+
+
+
+#Create a class called shape with the method area. Each subclass should have circle, rectangle, triangle that override the method area.
+# class Shape:
+    # def area(self):
+        # return 0
+# 
+# 
+# class Circle(Shape):
+    # def __init__(self, r):
+        # self.r = r
+# 
+    # def area(self):
+        # return 3.14 * self.r * self.r
+# 
+# 
+# class Rectangle(Shape):
+    # def __init__(self, l, b):
+        # self.l = l
+        # self.b = b
+# 
+    # def area(self):
+        # return self.l * self.b
+# 
+# 
+# class Triangle(Shape):
+    # def __init__(self, b, h):
+        # self.b = b
+        # self.h = h
+# 
+    # def area(self):
+        # return 0.5 * self.b * self.h
+# 
+# 
+# c = Circle(10)
+# r = Rectangle(4, 6)
+# t = Triangle(3, 8)
+# 
+# print(c.area())
+# print(r.area())
+# print(t.area()) 
+
+
+
+
+# Create a base class Vehicle with attribute brand and model, and create two subclasses Car and Bike, which have extra attributes: seat in Car and engine CC in Bike. Use inheritance from the Vehicle class to Car and Bike separately. 
+# class Vehicle:
+#     def __init__(self, b, m):
+#         self.brand = b
+#         self.model = m
+
+
+# class Car(Vehicle):
+#     def __init__(self, b, m, s):
+#         super().__init__(b, m)
+#         self.seats = s
+
+
+# class Bike(Vehicle):
+#     def __init__(self, b, m, e):
+#         super().__init__(b, m)
+#         self.engine_cc = e
+
+
+
+
+# Use abstraction in class Employee as an abstract class which has a method to calculate salary, and inherit that abstract class in Intern class, FullTimeEmployee class, and ContractEmployee class. 
+# from abc import ABC, abstractmethod
+
+# class Employee(ABC):
+#     @abstractmethod
+#     def calculate_salary(self):
+#         pass
+
+
+# class Intern(Employee):
+#     def calculate_salary(self):
+#         return 10000
+
+
+# class FullTimeEmployee(Employee):
+#     def calculate_salary(self):
+#         return 50000
+
+
+# class ContractEmployee(Employee):
+#     def calculate_salary(self):
+#         return 30000
+# obj=Intern()
+
+
+
+
+# Create a class Person that allows the constructor to work with only name, name+address as direct constructor overloads. Overload of the constructor is not allowed in Python; we have to use default parameters to simulate constructor overloading. 
+# class Person:
+#     def __init__(self, n, a=None, ad=None):
+#         self.name = n
+#         self.age = a
+#         self.address = ad
+
+
+
+
+# Create a class Player with a class variable player_count and an instance variable having name and level of the player. You have to track how many players were created when objects are created. 
+# class Player:
+#     player_count = 0
+
+#     def __init__(self, n, l):
+#         self.name = n
+#         self.level = l
+#         Player.player_count += 1
+#         print(f"the count is {Player.player_count}")
+# a=Player("a",5)
+# c=Player("c",4)
+# b=Player("b",6)
+# d=Player("d",8)
+# e=Player("e",3)
+
+
+
+
+#Create a following class hierarchy:
+# - herbivores
+# - carnivores
+# - omnivores
+# with some attribute and method; then create a class bear and inherit from the following classes to showcase multiple inheritance work.
+# class Herbivore:
+#     def eat_plants(self):
+#         print("Eats plants")
+
+
+# class Carnivore:
+#     def eat_meat(self):
+#         print("Eats meat")
+
+
+# class Omnivore:
+#     def eat_all(self):
+#         print("Eats both")
+
+
+# class Bear(Herbivore, Carnivore, Omnivore):
+#     pass
+
+
+# b = Bear()
+# b.eat_plants()
+# b.eat_meat()
+# b.eat_all()
+
+
+
+
+# from datetime import datetime
+
+# class User:
+#     def __init__(self, name):
+#         self.name = name
+
+
+# class Message:
+#     def __init__(self, sender, content):
+#         self.sender = sender
+#         self.content = content
+#         self.time = datetime.now()
+
+
+# class ChatRoom:
+#     def __init__(self, room_name):
+#         self.room_name = room_name
+#         self.members = []
+#         self.messages = []
+
+#     def join(self, user):
+#         if user not in self.members:
+#             self.members.append(user)
+#             print(user.name + " joined")
+
+#     def leave(self, user):
+#         if user in self.members:
+#             self.members.remove(user)
+#             print(user.name + " left")
+
+#     def send_message(self, user, content):
+#         if user not in self.members:
+#             print("User not in room")
+#             return
+#         msg = Message(user, content)
+#         self.messages.append(msg)
+
+#     def view_history(self):
+#         for m in self.messages:
+#             print(f"[{m.sender.name}] {m.content} ({m.time})")
+
+
+# u1 = User("Ankit")
+# u2 = User("Shiva")
+
+# room = ChatRoom("General")
+
+# room.join(u1)
+# room.join(u2)
+
+# room.send_message(u1, "Hello")
+# room.send_message(u2, "Hi bro")
+
+# room.view_history()
+
+# room.leave(u2)
