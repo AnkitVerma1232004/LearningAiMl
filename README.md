@@ -16,9 +16,13 @@ I use it to practice, experiment, and understand concepts deeply.
 
 ## 🧠 What I’ve Covered
 
-- Python basics (loops, conditions, input/output)
-- Data structures (lists, tuples, dictionaries)
+- Python Basics (loops, conditions, input/output)
+- Data Structures (lists, tuples, dictionaries)
 - Object-Oriented Programming (encapsulation, inheritance, abstraction, polymorphism)
+- File Handling (file modes, reading/writing, context manager, file paths)
+- Exception Handling (try, except, else, finally)
+- JSON Handling (json.load(), json.dump())
+- List Comprehension
 
 ---
 
@@ -31,18 +35,21 @@ I use it to practice, experiment, and understand concepts deeply.
 ---
 
 ## 🎯 Current Focus
-Learning NumPy and improving coding fundamentals.
+
+NumPy and improving coding fundamentals
 
 ---
 
 ## 📌 Next
+
 NumPy → Pandas
 
 ---
 
 ## ⭐ Note
+
 This repository reflects my learning process, not polished production code.
 
 ---
 
-*Last Updated: 6 April 2026*
+*Last Updated: April 2026*
