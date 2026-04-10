@@ -8,7 +8,7 @@ I use it to practice, experiment, and understand concepts deeply.
 ## 📂 Structure
 
 - Assignments → Practice problems (some code is commented as I experiment)
-- codes → Jupyter notebooks for concepts (Python basics & OOP)
+- codes → Jupyter notebooks for concepts (Python basics, OOP, NumPy)
 - makelifeeasycode → Small automation scripts
 - notes → Reference PDFs
 
@@ -23,6 +23,7 @@ I use it to practice, experiment, and understand concepts deeply.
 - Exception Handling (try, except, else, finally)
 - JSON Handling (json.load(), json.dump())
 - List Comprehension
+- Basic Data Understanding (cleaning, simple analysis)
 
 ---
 
@@ -42,13 +43,13 @@ NumPy and improving coding fundamentals
 
 ## 📌 Next
 
-NumPy → Pandas
+Pandas
 
 ---
 
 ## ⭐ Note
 
-This repository reflects my learning process, not polished production code.
+This repository reflects my learning process and consistency, not polished production code.
 
 ---
 
